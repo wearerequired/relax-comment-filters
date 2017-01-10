@@ -9,7 +9,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-namespace Required\ReleaxCommentFilters;
+namespace Required\RelaxCommentFilters;
 
 // Default KSES runs just prior, on the same priority.
 add_action( 'init', __NAMESPACE__ . '\kses_init' );

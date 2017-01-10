@@ -1,0 +1,13 @@
+{
+  "name":        "wearerequired/relax-comment-filters",
+  "description": "Forces comments to go through the more liberal post HTML filters, rather than the restrictive comment filters.",
+  "version":     "1.0.0",
+  "type":        "wordpress-plugin",
+  "license":     "GPL-2.0+",
+  "authors":     [
+    {
+      "name":  "required",
+      "email": "info@required.ch"
+    }
+  ]
+}

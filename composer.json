@@ -1,14 +1,26 @@
 {
-  "name":        "wearerequired/relax-comment-filters",
-  "description": "Forces comments to go through the more liberal post HTML filters, rather than the restrictive comment filters.",
-  "version":     "1.0.0",
-  "type":        "wordpress-plugin",
-  "license":     "GPL-2.0+",
-  "authors":     [
+  "name": "wearerequired/relax-comment-filters",
+  "description": "WordPress plugin to force comments to go through the more liberal post HTML filters, rather than the restrictive comment filters.",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/wearerequired/relax-comment-filters",
+  "license": "GPL-2.0+",
+  "authors": [
     {
-      "name":  "required",
-      "email": "info@required.ch"
+      "name": "required",
+      "email": "info@required.ch",
+      "homepage": "https://required.com",
+      "role": "Company"
+    },
+    {
+      "name": "Dominik Schilling",
+      "email": "dominik@required.ch",
+      "role": "Developer"
     }
+  ],
+  "keywords": [
+    "wordpress",
+    "comments",
+    "html",
   ],
   "require": {
     "php": ">=5.6.0"

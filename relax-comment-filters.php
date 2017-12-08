@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Relax Comment Filters
  * Description: Forces comments to go through the more liberal post HTML filters, rather than the restrictive comment filters.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      required
  * Author URI:  https://required.com/
  * License:     GPL-2.0+

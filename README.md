@@ -7,9 +7,3 @@ Forces comments to go through the more liberal post HTML filters, rather than th
 ## Description
 
 With this plugin users can for example post images into comments which don't get stripped by the default KSES filters. This is done by using `wp_filter_post_kses()` instead of `wp_filter_kses()`.
-
-## Changelog
-
-### 1.0.0
-
-Initial release.

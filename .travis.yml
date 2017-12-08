@@ -4,9 +4,12 @@ dist: trusty
 language: php
 
 notifications:
-  email:
-    on_success: never
-    on_failure: change
+  email: false
+  slack:
+    secure: QIHhJUIHKMAFPb58dtCasNmmSRdk6W+2LWPX2HksPzxes3wfFW1Ag59AGryog82kjJZ86DkFuKUBfLdsSDQ1yb/6zEzn9SJyrTcmpQlr3gQ41Ats5mZppvrVTnCc655T3yW8S2FA74puyJzQ+gAfeOBXfdd3wAhEbfDbK3mYe6PphXAPHal6BpUSmGJ9+CRZDm2JAJIf1OZG7fbuBhClnhQezClcWE7L5BYgNkEIws4Ug+IC0Lix4A57F2S74WfJPRcuzmj37pXZFaDemKQ/E6dct+Dw56b031sFS4QNS/SHHkzhL1H94Cjqz+hAHSvEo6XLjs5sRoTSw9GhtxqUpnFjXHDQ/FWm+nj7I0w/hheLYdrvbXcVkJ14vQeRY35b4ZdaSylnFwegRM91ViIcDYOAkRjX5OV8FNhl0WccUZ1kG3Hple3cDgArN4g2Xijpz+ZjkR8IlgLU8zxxSBYgCorNYcJgPH9YGQxTZxjWx6WyzCpSC00WAQxHggkR0IYU0TrXinLZ/GFO//aefm6HHwoOBcyo4vEc2uLWNbJhS1HMvV6725rGE6HL5e3ihbl0q2EgmLgdIQJClWcDj1cCa5HQCas4kzhb2X662WvygseFDJhz662gP/AuYWo8/BYg/tXmJgYzROZtevc0JvwvMd6OwJ8SKk+DpK6oW9qpx8Y=
+  on_start: never
+  on_failure: always
+  on_success: change
 
 branches:
   only:
